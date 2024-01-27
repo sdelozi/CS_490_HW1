@@ -1,4 +1,4 @@
-# CS_490_HW1
+# CS_590_HW1
 ## Scott Delozier
 
 # Assignment-1
