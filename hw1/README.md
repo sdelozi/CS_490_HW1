@@ -37,3 +37,19 @@ Once you download required packages for Jupyter server and functionalities, expo
 Example:
 ```bash
 ./my_copy_script.sh /users/manasdas/data1 /users/manasdas/output/results
+
+
+./install.sh
+source .bashrc
+conda env create --name jupyter -f requirements.yml
+conda activate jupyter
+conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 cpuonly -c pytorch
+screen -S newScreen
+jupyter notebook --no-browser --port=5910
+
+in local terminal:
+ssh -L 59000:localhost:5910 sdelozi@xxx
+
+in browser:
+http://localhost:59000/tree?token=xxx
+(get from jupyter screen, change port)
