@@ -33,13 +33,17 @@ def one_hot(input_file, output_file):
                     g_enc += '0'
                     t_enc += '1'
                 else:
+                    a_enc += '0'
+                    c_enc += '0'
+                    g_enc += '0'
+                    t_enc += '0'
                     print("encountered non-acgt")
             
             outf.write(a_enc + '\n' + c_enc + '\n' + g_enc + '\n' + t_enc + "\n\n")
 
 if __name__ == "__main__":
-    input_file = "C:\\Users\\deloz\\Projects\\CS_590_HW1\\p1\\pos\\ENCFF027BPY_pos.txt"
-    output_file = "C:\\Users\\deloz\\Projects\\CS_590_HW1\\p2\\pos_enc\\ENCFF027BPY_pos_enc.txt"
+    input_file = "C:\\Users\\sdelozi\\projects\\CS_590_HW1\\p1\\pos\\ENCFF027BPY_pos.txt"
+    output_file = "C:\\Users\\sdelozi\\projects\\CS_590_HW1\\p2\\pos_enc\\ENCFF027BPY_pos_enc.txt"
     
     one_hot(input_file, output_file)
     
