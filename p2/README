@@ -9,14 +9,14 @@ This repository contains Jupyter notebooks implementing deep neural network mode
 Deciphering the interplay between genomic compaction and chromatin accessibility is crucial for comprehending cellular function. Chromatin accessibility reflects the intricate interactions of enhancers, promoters, insulators, and other DNA binding sites, ultimately shaping gene expression that may lead to protein production. This study delves into the chromatin accessibility profiles of hematopoietic cells and T cells. We leverage deep neural networks to model these accessibility patterns, utilizing ATAC-seq data as the foundation for our analysis. Our findings aim to illuminate the regulatory landscapes governing these vital cell types.
 
 ## Files
-- `hemo_alexnet.ipynb`: Jupyter notebook implementing an AlexNet neural network for modeling chromatin accessibility of hematopoietic cells.
+- `hema_alexnet.ipynb`: Jupyter notebook implementing an AlexNet neural network for modeling chromatin accessibility of hematopoietic cells.
 - `tcell_alexnet.ipynb`: Jupyter notebook implementing an AlexNet neural network for modeling chromatin accessibility of T-cells.
 
 ## Usage
 1. Clone the repository:
 https://github.com/sdelozi/CS_590_HW.git
-2. Open the desired notebook (`hemo_alexnet.ipynb` or `tcell_alexnet.ipynb`) in Jupyter Notebook.
-3. Use Shreejan's data file for `hemo_alexnet.ipynb` and Gavin's data file for `tcell_alexnet.ipynb`
+2. Open the desired notebook (`hema_alexnet.ipynb` or `tcell_alexnet.ipynb`) in Jupyter Notebook.
+3. Use Shreejan's data file for `hema_alexnet.ipynb` and Gavin's data file for `tcell_alexnet.ipynb`
 
 ## Requirements
 - Python 3.x
